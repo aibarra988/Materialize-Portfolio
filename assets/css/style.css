@@ -1,3 +1,9 @@
 .slider img  {
     opacity: .5;
 }
+
+/* used to raise the buttons in the slider  */
+/* so they wont be at the bottom */
+ul.indicators {
+    padding-bottom: 1%;
+}

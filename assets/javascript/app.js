@@ -3,3 +3,7 @@ $(document).ready(function() {
     $(".slider").slider();
     $('.sidenav').sidenav();
 });
+
+$("#submit").click(function(e) {
+    e.preventDefault();
+});
