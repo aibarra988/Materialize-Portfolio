@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!-- Materialize Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-            
+    <!-- my style -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -19,9 +20,9 @@
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Abraham Ibarra</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a href="sass.html">About Me</a></li>
+                <li><a href="badges.html">Portfolio</a></li>
+                <li><a href="collapsible.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -29,26 +30,170 @@
     <!-- Parallax Container -->
     <div class="parallax-container">
         <div class="parallax">
-            <img src="https://media1.tenor.com/images/7b4fd20fe96029eedd82506f3a9f9491/tenor.gif?itemid=5450017">
+            <img src="http://ihg.scene7.com/is/image/ihg/hotel-indigo-el-paso-4017454477-2x1?wid=1440&fit=fit,1" alt="El Paso, TX">
         </div>
     </div>
+    
+    <!-- about me section -->
     <div class="section white">
         <div class="row container">
-            <h2 class="header">Abraham Ibarra</h2>
-            <p class="grey-text text-darken-3 lighten-3">He's a software engineer... Oh yeah? I'm a doctor too.</p>
+            <h2 class="header">About Me</h2>
+            <p class="grey-text text-darken-3 lighten-3 flow-text">
+                My name is Abraham Ibarra. I am from El Paso, TX and I've been living in Austin since 2012. Some of my favorite
+                hobbies are tinkering with technology, skateboarding, and cooking. I love going to shows in town and traveling
+                to national parks across the US.
+            </p>
+            <p>
+                As far as I can remember, I've been fascinated by computers, video games and problem solving. I knew my calling was to be
+                a developer. After serving in the US Navy for four years, I've gained five years in the IT industry; three of which I
+                have been a software developer at CA Technologies working on the IDaaS platform CA Identity Service.
+            </p>
+            
+            <p>
+                During my time at CA Technologies, I was left hungry to keep growing as a software engineer. My goal is to always keep working
+                towards writing clean and useful code while keeping in mind the hardships and lessons that come from working on a dense
+                codebase with brittle tests. One big lesson I learned: always write tests.
+            </p>
+            
+            <p>
+                I enjoyed being able to contribute to working in all of the components of our tech stack and participate in designing and
+                developing new features. I made the time to sharpen my skills and grow my network by going to The Coding Boot Camp at
+                the University of Texas so that I could feel more confident when interviewing for my next position.
+            </p>
         </div>
     </div>
+    
     <div class="parallax-container">
         <div class="parallax">
-            <img src="https://i0.wp.com/thecomicscomic.com/wp-content/uploads/2018/01/eric-andre-paris.jpg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Austin_Evening.jpg/1280px-Austin_Evening.jpg">
         </div>
     </div>
+    
+    <!-- portfolio section -->
     <div class="section white">
         <div class="row container">
-            <h2 class="header">All of a sudden</h2>
-            <p class="grey-text text-darken-3 lighten-3">Wacha vato i can make this for you!</p>
+            <h2 class="header center-align">Portfolio</h2>
+            <div class="slider grey darken-3">
+                <ul class="slides">
+                    <li>
+                        <div class="row">
+                            
+                        </div>
+                        <img class="responsive-img" src="assets/images/pantry.png">
+                        <!-- random image -->
+                        <div class="caption bottom-align">
+                            <h3>The Pantry</h3>
+                            <h5>Project 1 at The Coding Boot Camp at UT Austin</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/giftastic.png">
+                        <!-- random image -->
+                        <div class="caption left-align">
+                            <h3>gifTastic!</h3>
+                            <h5 class="light grey-text text-lighten-3">An app for making buttons that generate gifs</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/trivia.png">
+                        <!-- random image -->
+                        <div class="caption bottom-align">
+                            <h3>Rick and Morty Trivia</h3>
+                            <h5 class="light grey-text text-lighten-3">Homework that teaches about timeouts</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/hangman.png">
+                        <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>v a p o r w a v e   h a n g m a n</h3>
+                            <h5 class="light grey-text text-lighten-3">First homework at the boot camp</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="assets/images/edm.png">
+                        <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>Employee Data Management</h3>
+                            <h5 class="light grey-text text-lighten-3">An exercise in on-the-fly prototyping</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
+    
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="assets/images/norwabe.jpg">
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <div class="section white">
+        <div class="row container">
+            <h2>Contact Me</h2>
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="First Name" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" placeholder="Last Name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Message</label>
+                    </div>
+                </div>
+                <a class="waves-effect waves-light btn-small">Send</a>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">GitHub</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Linkedin</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">npm</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Email</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright
+            </div>
+        </div>
+    </footer>
     <script src="assets/javascript/app.js"></script>    
 </body>
 </html>
