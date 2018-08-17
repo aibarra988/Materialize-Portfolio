@@ -6,7 +6,7 @@
     <title>Abraham Ibarra | Software Engineer</title>
 
     <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
     <!-- Materialize Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!-- Materialize Compiled and minified JavaScript -->
@@ -20,16 +20,39 @@
 </head>
 
 <body>
+    <!-- Top Navbar -->
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Abraham Ibarra</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
+    
+    <!-- Side Navbar -->
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="#about-me">About Me</a>
+        </li>
+        <li>
+            <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
     
     <!-- Picture Container -->
     <div class="parallax-container">
